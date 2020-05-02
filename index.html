@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript" src="js\jquery.min.js"></script> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="images\juewu.ico" type="image/x-icon"><link rel="icon" sizes="any" mask="" href="images\juewu.ico">
+<title>觉悟网</title>
+</head>
+<script>
+$(function(){
+	topheight = $(window).height();
+	$("body,#nav").css("height",topheight)
+	})
+</script>
+<style>
+.nav { width:80px; height:100% auto; position:fixed; right:0px; top:40%; z-index:99}
+.nav .jue{ width:80px; text-align:right; }
+.lotus { background:url(images/lotus_small2.png) no-repeat center top; width:120px; height:58px; z-index:10; position:fixed; right:-30px; top:49%;
+-webkit-animation: lotusMove 10s ease-in-out infinite; -moz-animation: lotusMove 10s ease-in-out infinite; animation: lotusMove 10s ease-in-out infinite;}
+@-moz-keyframes lotusMove{
+25%{transform:translate3d(-12px,6px,0) scale(1.01,1) rotate(-3deg); transform-origin: right top; 	}
+98%{-moz-transform:translate3d(0,0,0) scale(1,1)}
+}
+@-webkit-keyframes lotusMove{
+25%{transform:translate3d(-12px,6px,0) scale(1.01,1) rotate(-3deg); transform-origin: right top; 	}
+98%{transform:translate3d(0,0,0) scale(1,1)}
+}
+@keyframes lotusMove{	
+25%{transform:translate3d(-12px,6px,0) scale(1.01,1) rotate(-3deg); transform-origin: right top; 	}
+98%{transform:translate3d(0,0,0) scale(1,1)}
+}
+.foot { width:318px; position:fixed; bottom:20px; right:40%; z-index:3}
+.foot img { width:250px; height:65px}
+.yun1 { width:419px; height:149px; background:url(images/yun1.png) no-repeat center top; -webkit-animation: yun1 20s ease-in-out infinite; -moz-animation: yun1 20s ease-in-out infinite; animation: yun1 20s ease-in-out infinite; opacity:0; position:absolute; left:60%; top:50px;}
+@-moz-keyframes yun1{
+50%{ opacity:1; }
+100% {margin-left:-880px; opacity:0;}
+}
+@-webkit-keyframes yun1{
+50%{ opacity:1; }
+100% {margin-left:-880px; opacity:0;}
+}
+@keyframes yun1{	
+50%{ opacity:1; }
+100% {margin-left:-880px; opacity:0;}
+}
+
+
+.yun2 { width:580px; height:147px; background:url(images/yun2.png) no-repeat center top;  position:absolute; left:50%; bottom:900px; opacity:0.5;}
+</style>
+<body style="margin:0; padding:0; background:#f5e8c8 url(images/new_bg.jpeg) no-repeat center bottom; position:relative">
+<div class="yun1"></div>
+<!--<div class="yun2"></div>-->
+
+
+<div class="nav">
+<a href="index.html" target="_self">
+<div class="jue">
+<svg version="1.1" id="jue" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="85px" height="85px" viewbox="-15 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+
+<circle cx="58.55432" cy="41.60254" r="8" fill="none" stroke="#FF6600" stroke-width="2" stroke-dasharray="none" transform="matrix(1.4,0,0,1.4,22,-15)">
+<animatetransform attributename="transform" begin="0" dur="1" fill="freeze" additive="sum" from="58.59373 41.62499" to="58.59373 41.62499" type="translate" repeatcount="indefinite"></animatetransform>
+<animatetransform attributename="transform" begin="0" dur="1" fill="freeze" additive="sum" from="1 1" to="2.59 2.589999" type="scale" repeatcount="indefinite"></animatetransform>
+<animatetransform attributename="transform" begin="0" dur="1" fill="freeze" additive="sum" from="-58.59373 -41.62499" to="-58.59373 -41.62499" type="translate" repeatcount="indefinite"></animatetransform>
+<animate attributename="stroke" begin="0" dur="1" fill="freeze" from="#FF6600" to="#f5e8c8" repeatcount="indefinite"></animate>
+</circle>
+
+	<g transform="matrix(0.86,0,0,0.86,16.90093,23.13281)">
+		<g>
+			<path d="M103.91,8.643c3.179,0.078,6.009,1.087,8.491,3.024c0.698,0.543,2.984,2.792,6.863,6.747&#xD;&#xA;			c0.931,1.32,1.239,3.374,0.931,6.165l-1.279,6.63c-1.164,1.009-2.326,2.056-3.49,3.141c-1.24,1.087-2.404,2.21-3.49,3.374&#xD;&#xA;			c-2.637,1.396-5.699,2.25-9.189,2.559c-3.646,0.389-6.63,0.04-8.956-1.047c-4.267-2.094-7.29-5.118-9.073-9.073&#xD;&#xA;			c-1.939-4.342-1.823-8.567,0.349-12.679c1.628-1.55,2.751-2.597,3.374-3.141c1.317-1.163,2.442-2.17,3.373-3.024&#xD;&#xA;			c1.629-1.007,3.566-1.745,5.816-2.21C99.49,8.799,101.584,8.643,103.91,8.643z M108.214,16.087&#xD;&#xA;			c-3.024-1.164-5.001-1.783-5.933-1.861c-2.715-0.076-5.545,1.32-8.491,4.188c-2.948,3.257-3.685,6.63-2.21,10.12&#xD;&#xA;			c1.472,3.49,4.342,5.351,8.607,5.583c3.799,0,6.59-0.503,8.376-1.512c2.791-1.55,4.264-4.613,4.42-9.189&#xD;&#xA;			c-0.232-1.318-0.813-2.713-1.745-4.188C110.308,17.756,109.299,16.708,108.214,16.087z"></path>
+			<set attributename="stroke-width" begin="0" dur="0" fill="freeze" to="2" from="2"></set>
+		</g>
+		<g>
+			<path d="M25.114,191.153l0.275-0.413c0.186-0.093,0.276-0.186,0.276-0.275l11.57-2.894c4.133-1.194,7.759-2.571,10.882-4.132&#xD;&#xA;			c0.642-0.093,1.377-0.414,2.204-0.965l3.444-3.03c0.458-0.367,0.917-0.688,1.378-0.964c1.009-0.551,1.974-0.827,2.892-0.827&#xD;&#xA;			l0.414,0.414c0.642,0,1.24-0.323,1.791-0.964l1.102-1.516c2.112-1.469,4.361-3.351,6.75-5.647c1.836-1.836,3.995-4.086,6.474-6.75&#xD;&#xA;			l2.893-2.341c1.192-0.918,2.066-1.792,2.618-2.618l1.653-2.755c0.734-1.192,1.102-1.929,1.102-2.204&#xD;&#xA;			c0-0.366-0.276-0.551-0.827-0.551c-1.011,0-2.434,0.826-4.27,2.479c-0.185,0.093-0.368,0.23-0.551,0.413&#xD;&#xA;			c0,0.093-0.093,0.185-0.276,0.276c-0.093,0.093-0.138,0.185-0.138,0.274l-0.964,0.689c-0.551,0.551-0.964,0.826-1.24,0.826&#xD;&#xA;			c-1.928,0-3.03-1.147-3.306-3.444c-0.093-0.459-0.138-0.964-0.138-1.515l0.138-4.959l-0.413-2.479l0.413-9.918&#xD;&#xA;			c0.09-0.091,0.09-0.321,0-0.688l-0.413-1.24v-20.938c0-0.366,0.596-0.733,1.791-1.101c1.009-0.366,1.791-0.552,2.342-0.552&#xD;&#xA;			c2.204,0,3.902,0.736,5.097,2.204l0.551,1.102c0,0.093,0.045,0.186,0.138,0.275c0.09,0.461,0.413,0.826,0.964,1.103&#xD;&#xA;			c3.213,0.093,6.244,0.093,9.091,0c3.307-0.184,6.337-0.458,9.092-0.827l8.265-1.239c3.12-0.365,5.876-0.551,8.265-0.551&#xD;&#xA;			l3.031,0.138c0.09-0.276,0.457-0.597,1.102-0.964c0.275-0.091,0.551-0.229,0.826-0.414l1.24-0.826l2.203-1.103l0.689-0.551&#xD;&#xA;			c0.365,0,0.733-0.138,1.103-0.413c0.274-0.183,0.596-0.459,0.963-0.826c0.459-0.459,0.827-0.734,1.103-0.827&#xD;&#xA;			c0.366-0.275,0.688-0.413,0.964-0.413c1.01,0,2.295,0.552,3.857,1.652c1.377,1.103,2.204,2.114,2.479,3.032l-0.552,13.223&#xD;&#xA;			c0,0.551,0.045,0.965,0.138,1.239c0,0.368,0.139,0.689,0.414,0.966v14.049l0.826,7.438c0,2.479-0.46,4.777-1.378,6.888&#xD;&#xA;			c0.091,1.012-0.46,2.021-1.652,3.03c-0.461,0.367-1.012,0.736-1.653,1.103l-1.653,0.964c-3.029,0-5.051-0.964-6.061-2.893&#xD;&#xA;			c-0.643-5.51-2.296-8.266-4.958-8.266c-0.828,0-1.517,0.138-2.066,0.414c-0.461,0.275-0.874,0.598-1.24,0.964l-0.826,2.204&#xD;&#xA;			c-0.092,3.767,0.045,6.474,0.412,8.128c0.459,1.47,1.148,2.341,2.066,2.616c0.459,0.185,0.965,0.276,1.516,0.276h1.791&#xD;&#xA;			c1.744,0,3.213,0.229,4.408,0.688c7.438,0,14.646-0.414,21.626-1.24c0.734-0.552,1.378-1.24,1.928-2.066&#xD;&#xA;			c0.276-0.366,0.504-0.778,0.688-1.24l0.689-1.238c1.284-1.836,2.662-6.565,4.132-14.189h1.24c0.552,0.093,0.826,0.276,0.826,0.552&#xD;&#xA;			c0,3.491,0.552,7.762,1.654,12.81c1.192,5.145,2.294,8.176,3.305,9.092l-0.274,3.995c-0.369,1.838-1.24,2.848-2.618,3.03&#xD;&#xA;			c-0.367-0.183-0.781-0.228-1.24-0.138c-0.274,0-0.642,0.093-1.101,0.275l-0.552,0.276c-0.185,0.092-0.367,0.137-0.551,0.137&#xD;&#xA;			c-0.368,0.186-0.735,0.275-1.102,0.275c-2.572,0-4.501-0.275-5.786-0.826c-0.184,0.093-0.323,0.276-0.413,0.551l-0.413,0.689&#xD;&#xA;			l-1.239-0.414h-0.827c-0.46,0-0.874,0.139-1.239,0.414c-2.297,0-4.408,0.09-6.336,0.274c-1.378,0.092-2.71,0.276-3.995,0.552&#xD;&#xA;			c-0.275,0-0.552,0.045-0.826,0.137l-0.826,0.14c-0.552,0.182-1.013,0.274-1.378,0.274c-1.012,0.183-1.977,0.275-2.894,0.275&#xD;&#xA;			l-2.479-0.413c-1.103,0-2.252,0.045-3.444,0.138c-0.46,0-0.964,0.045-1.515,0.138l-3.719,0.414&#xD;&#xA;			c-0.919,0.09-1.701,0.138-2.342,0.138c-0.094-0.276-0.689-0.414-1.791-0.414h-2.617c-0.368,0-0.875-0.186-1.516-0.55&#xD;&#xA;			c-0.736-0.369-1.377-0.874-1.929-1.517c-1.745-1.835-2.616-4.178-2.616-7.025l0.137-10.33c-0.092-4.407-0.688-6.612-1.791-6.612&#xD;&#xA;			c-5.785,0-9.275,0.092-10.468,0.276c-0.093,0.367-0.093,0.781,0,1.239l0.688,2.204c0.09,0.46,0.138,0.874,0.138,1.238&#xD;&#xA;			c0,1.471-1.012,3.262-3.03,5.373c-1.377,1.563-2.94,2.94-4.684,4.133c-0.551,0.551-1.102,1.24-1.653,2.066&#xD;&#xA;			c-0.551,0-1.332,0.322-2.342,0.964l-4.132,3.581c-0.551,0.462-1.011,0.781-1.377,0.965c-0.919,0.735-1.653,1.102-2.204,1.102&#xD;&#xA;			c-0.551,0.369-1.102,0.688-1.653,0.965c-0.275,0.183-0.644,0.365-1.102,0.55l-1.102,0.414c-0.368,0.09-0.736,0.274-1.102,0.551&#xD;&#xA;			c-0.186,0-0.368-0.047-0.551-0.137l-0.275-0.276c-0.093,0.184-0.138,0.366-0.138,0.551l-0.138,0.689&#xD;&#xA;			c-0.092,0.365-0.275,0.641-0.551,0.826c-3.857,3.029-7.576,5.372-11.157,7.024c-1.012,0.552-2.527,1.056-4.546,1.516l-2.342,0.688&#xD;&#xA;			c-0.918,0.184-1.653,0.414-2.204,0.688l-4.959,1.93c-1.928,0.733-3.582,1.284-4.959,1.652c-3.766,1.192-7.21,1.791-10.331,1.791&#xD;&#xA;			c-0.917,0-1.377-0.414-1.377-1.24C24.838,191.75,24.931,191.429,25.114,191.153z M44.674,126.274&#xD;&#xA;			c0.183,0.275,0.413-0.366,0.688-1.929c0.366-1.929,0.872-3.214,1.515-3.856c0-0.091,0.138-0.366,0.413-0.827l0.827-1.102&#xD;&#xA;			c0.458-0.551,0.734-0.964,0.827-1.24c0.275-0.366,0.413-0.596,0.413-0.688c0.09-1.56,0.413-3.259,0.964-5.097l1.653-4.27&#xD;&#xA;			c0.09-0.275,0.183-0.459,0.275-0.552c0.827-2.111,1.377-3.764,1.653-4.959c0.551-1.836,0.826-3.581,0.826-5.234l-0.138-5.096&#xD;&#xA;			c0.183-1.929,0.779-2.894,1.791-2.894c0.183-0.09,0.504,0.048,0.964,0.414c0.458,0.274,0.688,0.598,0.688,0.963&#xD;&#xA;			c0,4.501,0.689,8.358,2.066,11.572l0.827,0.826h3.306c0.276,0,0.503-0.917,0.689-2.755l0.414-6.199l0.137-9.366&#xD;&#xA;			c-0.644-1.653-1.011-4.224-1.102-7.714l-0.138-1.929c0-0.826-0.047-1.516-0.138-2.066c-0.092-1.468-0.323-2.8-0.688-3.994&#xD;&#xA;			c0-0.091-0.23-0.458-0.689-1.103l-0.688-0.826c-0.276-0.276-0.506-0.596-0.689-0.964c-0.185-1.561-0.964-2.845-2.341-3.857&#xD;&#xA;			l-1.791-1.24l-1.653-1.515c0.183-0.551,0.413-0.917,0.688-1.102c0.183-0.09,0.503-0.138,0.964-0.138&#xD;&#xA;			c1.192,0,2.57,0.323,4.132,0.964l3.719,1.515c0.827,0,2.111,0.413,3.857,1.24c1.743,0.826,3.076,1.24,3.995,1.24&#xD;&#xA;			c0.734,0,1.561-0.229,2.479-0.689l1.24-0.551l2.479-1.653l1.24-0.551c0.917-0.458,1.743-0.689,2.479-0.689&#xD;&#xA;			c1.102,0,2.066,0.644,2.893,1.929c0.641,1.102,0.964,2.251,0.964,3.444c0,0.46-0.185,0.918-0.551,1.377&#xD;&#xA;			c-0.368,0.461-0.736,0.689-1.102,0.689l-7.163,0.826c-0.185,0-0.643,0.323-1.377,0.965c-0.736,0.643-1.24,1.149-1.515,1.515&#xD;&#xA;			l-0.275,1.79c-0.186,0.644-0.368,1.013-0.551,1.103c0,2.571,0.688,4.363,2.066,5.372c0.642-0.183,1.378-0.458,2.205-0.827&#xD;&#xA;			l0.964-0.551c0.09-0.09,0.275-0.183,0.551-0.275c0.183-0.183,0.366-0.274,0.551-0.274c1.653-0.918,2.983-1.378,3.995-1.378&#xD;&#xA;			c1.653,0,2.479,0.688,2.479,2.066c0.366,3.581-0.736,5.371-3.306,5.371c-4.408,0-7.576,0.965-9.504,2.894l-0.138,2.204&#xD;&#xA;			c0,0.46,0.045,0.919,0.138,1.377c0.183,2.572,0.872,3.857,2.066,3.857c1.01,0,2.432-0.321,4.271-0.965&#xD;&#xA;			c1.744-0.642,3.075-0.965,3.995-0.965c1.468-0.274,2.204,0.369,2.204,1.93c-0.275,1.377-1.011,2.341-2.204,2.893&#xD;&#xA;			c-0.368,0.185-0.919,0.322-1.653,0.413c-0.093,0.092-0.185,0.138-0.276,0.138l-1.653,0.413c-0.275,0.368-0.781,0.644-1.515,0.826&#xD;&#xA;			l-2.204,0.276c-1.746,0.185-2.618,0.918-2.618,2.203c0,1.563,0.551,2.48,1.653,2.755l10.745-0.274&#xD;&#xA;			c0.551-0.184,1.054-0.552,1.515-1.103c0-0.091,0.045-0.183,0.138-0.275c0.09-0.184,0.183-0.276,0.275-0.276&#xD;&#xA;			c0.183-0.274,0.366-0.458,0.551-0.551l2.203-1.652c0.734-0.642,1.285-1.192,1.654-1.653c1.102-1.284,1.652-2.938,1.652-4.958&#xD;&#xA;			c0-0.918-0.322-1.93-0.965-3.031c-0.367-0.642-1.102-1.605-2.203-2.893c-2.113-2.569-3.168-4.591-3.168-6.061&#xD;&#xA;			c0-0.366,0.366-1.192,1.102-2.48c0.734-1.101,1.468-2.065,2.204-2.893c0-0.274,0.228-0.733,0.688-1.377l1.652-1.929&#xD;&#xA;			c1.561-1.928,2.342-3.443,2.342-4.545c0-0.641-0.46-1.467-1.377-2.479c-0.551-0.642-1.563-1.605-3.03-2.893l-3.03-2.893&#xD;&#xA;			c-0.919-1.01-1.377-1.836-1.377-2.479c0-0.551,0.458-0.827,1.377-0.827l1.791,0.964c0.826,0.461,1.33,0.688,1.515,0.688&#xD;&#xA;			l5.235,3.995c0.641,0.368,1.191,0.551,1.652,0.551c1.01,0,1.836-0.413,2.479-1.24c0.184-0.275,0.367-0.688,0.551-1.24&#xD;&#xA;			c0.184-0.275,0.366-0.779,0.552-1.515c0.183-0.642,0.366-1.102,0.552-1.377c0.182-0.551,0.365-0.964,0.551-1.24&#xD;&#xA;			c0.641-0.827,1.467-1.24,2.479-1.24c0.551,0,1.055,0.138,1.516,0.413c0.365,0.186,0.688,0.506,0.965,0.964l1.652,2.342&#xD;&#xA;			c0.275,0.275,0.596,0.506,0.965,0.689c0.09,0,0.183,0.047,0.275,0.137l0.551,0.276c0.459,0.368,0.688,0.964,0.688,1.791&#xD;&#xA;			l-3.03,2.617c-0.92,0.827-1.563,1.47-1.929,1.929c-0.551,0.551-0.735,0.826-0.551,0.826c0.09,0.093,0.183,0.324,0.274,0.689&#xD;&#xA;			l1.379,3.031c0,0.092,0.365,0.413,1.102,0.964c0.734,0.551,1.102,0.919,1.102,1.102c0.551,0.827,0.826,1.791,0.826,2.894&#xD;&#xA;			c0,2.204-0.275,4.132-0.826,5.785c-0.643,0.551-1.102,1.7-1.377,3.443c-0.275,1.745-0.826,2.94-1.652,3.582&#xD;&#xA;			c-0.186,0.185-0.508,0.367-0.965,0.551c0,0.092-0.093,0.138-0.275,0.138l-0.275,0.138c-0.276,0.093-0.461,0.185-0.551,0.274&#xD;&#xA;			c-1.012,0.552-1.516,1.195-1.516,1.929c0,1.104,0.09,2.021,0.275,2.756c0.917,0.551,1.743,1.194,2.479,1.929l2.204,3.306&#xD;&#xA;			c0.275,0.461,0.551,0.826,0.826,1.102c0.459,0.736,1.01,1.287,1.652,1.652c0-0.09,1.01-0.228,3.031-0.412l3.856-0.276&#xD;&#xA;			c1.743-0.09,3.581-0.138,5.51-0.138c0.183,0,0.504-0.138,0.964-0.413c0.366-0.275,0.597-0.413,0.689-0.413&#xD;&#xA;			c1.561-1.01,2.524-1.929,2.893-2.755c0.091-0.366,0.138-0.779,0.138-1.24v-1.515c0-1.837-0.826-2.756-2.479-2.756h-5.785&#xD;&#xA;			c-0.551,0.552-1.838,0.827-3.857,0.827c-2.389,0-3.582-1.284-3.582-3.856c0-0.459,0.367-0.872,1.104-1.24&#xD;&#xA;			c1.191,0,2.387-0.045,3.581-0.138l5.923-0.551c1.01-0.09,1.929-0.138,2.755-0.138h0.964c1.103-0.552,1.653-1.378,1.653-2.479&#xD;&#xA;			l-0.275-2.755c-0.093-0.642-0.275-1.147-0.551-1.516c-0.275-0.458-0.644-0.688-1.103-0.688l-3.03,0.413&#xD;&#xA;			c-0.46,0-0.826,0.048-1.103,0.138c-1.562,0.186-2.939,0.276-4.131,0.276c-2.205,0-3.307-0.552-3.307-1.654&#xD;&#xA;			c0-1.377,1.605-2.341,4.822-2.893c1.101-0.182,2.386-0.274,3.855-0.274c0.552-0.092,1.147-0.138,1.792-0.138h1.376&#xD;&#xA;			c1.103-0.276,1.653-1.378,1.653-3.307c0-2.479-1.102-3.719-3.306-3.719h-9.092c-0.092,0-0.412-0.366-0.964-1.103&#xD;&#xA;			c-0.46-0.733-0.688-1.192-0.688-1.377c0-1.192,1.422-2.066,4.27-2.617c2.111-0.458,4.453-0.689,7.025-0.689&#xD;&#xA;			c0.642-0.183,1.33-0.551,2.066-1.102l1.929-1.515c1.561-1.285,2.8-1.929,3.719-1.929c0.917,0,1.516,0.093,1.791,0.276l1.239,0.964&#xD;&#xA;			c0.184,0.186,0.504,0.369,0.965,0.551l2.342,1.377l1.24,0.964c1.927,1.377,2.707,2.755,2.341,4.133&#xD;&#xA;			c-0.275,0.736-0.507,1.563-0.688,2.479c0,0.369-0.048,0.781-0.138,1.24c-0.093,0.275-0.138,0.688-0.138,1.24&#xD;&#xA;			c-0.276,1.929-0.599,3.306-0.965,4.133v2.616c0,1.378-0.047,2.894-0.138,4.547l-0.274,4.407c-0.186,1.929-0.276,3.354-0.276,4.27&#xD;&#xA;			c-0.093,1.653-0.138,3.123-0.138,4.408c0,2.572,0.366,3.857,1.103,3.857c1.285,0.093,3.212-0.046,5.785-0.414l5.096-0.413&#xD;&#xA;			c0.275,0,0.552-0.045,0.826-0.138l1.378-0.55c0.366-0.092,0.733-0.139,1.103-0.139c3.856,0,6.061,1.653,6.611,4.959l0.138,4.82&#xD;&#xA;			l1.103,6.199c0,0.368-0.23,0.736-0.688,1.102l-1.516,0.827l-1.791,0.551l-0.964,0.551c-1.103,0-2.434,0.276-3.995,0.827&#xD;&#xA;			l-1.515,0.55c-0.552,0.186-0.919,0.276-1.103,0.276h-1.79l-1.929,0.413c-0.186,0-0.874-0.413-2.066-1.239l0.688-3.857&#xD;&#xA;			c0.366-2.755,0.552-4.959,0.552-6.611c0-0.091-0.138-0.321-0.414-0.688l-0.413-0.414c-5.326,0-10.285,0.093-14.876,0.275&#xD;&#xA;			c-5.234,0.186-10.24,0.461-15.016,0.827l-2.479-0.276c-2.297,0.369-4.869,0.6-7.715,0.688l-9.365,0.276l-1.93,0.275&#xD;&#xA;			c-1.838,0.275-3.215,0.414-4.132,0.414l-6.75,0.826h-5.647l-3.719,0.688c-0.368,0.093-0.689,0.138-0.964,0.138&#xD;&#xA;			c-0.368,0-0.781-0.045-1.24-0.138l-2.479-0.275c-0.46-0.091-0.874-0.139-1.24-0.139h-1.515c-0.551,0-1.057,0.048-1.515,0.139&#xD;&#xA;			c-1.195,0.092-2.204,0.275-3.031,0.551c-2.204,0.644-3.306,1.884-3.306,3.719v1.378c0,3.674-1.563,7.623-4.684,11.846&#xD;&#xA;			l-3.719,3.444c-2.021,1.745-3.812,2.617-5.373,2.617c-0.736,0-1.377-0.504-1.928-1.515c-0.461-0.828-0.688-1.699-0.688-2.618&#xD;&#xA;			V126.274z M82.278,144.318c0.366,0.462,0.734,0.689,1.102,0.689c0.09,0.092,0.458,0.048,1.102-0.138l1.377-0.414h12.398&#xD;&#xA;			l11.707-0.964c2.111-0.09,4.178-0.137,6.199-0.137l3.582-0.552c2.755,0,4.132-1.102,4.132-3.307l-0.276-4.959l0.276-1.652&#xD;&#xA;			l-0.276-11.57c-0.367-0.917-0.78-1.605-1.239-2.066c-0.368-0.276-0.826-0.458-1.376-0.551l-0.828-0.138&#xD;&#xA;			c-0.367,0-0.688-0.046-0.964-0.138c-0.735-0.184-1.47-0.504-2.204-0.965c-1.47,0.919-2.572,1.378-3.307,1.378l-16.942,0.826&#xD;&#xA;			l-4.407,0.414c-0.644,0.092-1.057,0.229-1.24,0.413l-1.102-0.551h-0.551c-0.551,0.274-1.102,0.46-1.653,0.551&#xD;&#xA;			c-0.461,0.184-0.964,0.323-1.516,0.413l-2.755,0.276c-1.746,0.367-2.617,1.515-2.617,3.442c0,1.103,0.551,1.653,1.653,1.653&#xD;&#xA;			c2.387-0.091,5.555-0.276,9.505-0.551l2.342-0.138c0.917-0.091,1.697-0.138,2.341-0.138l4.821-0.276&#xD;&#xA;			c0.366,0.093,0.779,0.138,1.24,0.138l2.479-0.826c0.458-0.09,0.872-0.138,1.239-0.138c0.366,0.093,0.78,0.138,1.24,0.138&#xD;&#xA;			l1.929-0.826c0.365-0.09,0.688-0.138,0.964-0.138c2.755-0.276,4.133,0.644,4.133,2.755c0,1.745-1.746,2.802-5.234,3.168&#xD;&#xA;			c-1.287,0.093-3.031,0.137-5.234,0.137h-6.061l-10.469,1.654l-3.582,0.275c-2.021,0.367-3.03,1.011-3.03,1.929&#xD;&#xA;			c0.276,0.093,0.642,0.412,1.102,0.964l0.551,0.688c1.102,0.093,2.8-0.09,5.096-0.552l2.756-0.55&#xD;&#xA;			c1.009-0.184,1.881-0.276,2.617-0.276c2.479,0,4.865-0.045,7.162-0.137l9.504-0.827c1.378-0.091,2.618-0.137,3.719-0.137&#xD;&#xA;			c1.285,0.274,1.93,1.377,1.93,3.305c0,1.47-1.012,2.436-3.03,2.893c-0.827,0.186-1.839,0.324-3.03,0.414h-3.031&#xD;&#xA;			c0-0.09-0.047-0.138-0.137-0.138c-0.276,0-0.689-0.138-1.24-0.414l-1.929,0.552c-0.919,0-1.929,0.048-3.03,0.137l-14.326,1.516&#xD;&#xA;			c-0.46,0-0.874,0.048-1.24,0.139c-0.551,0-1.012,0.093-1.377,0.275c-1.011,0.367-1.515,1.056-1.515,2.066&#xD;&#xA;			C81.728,143.54,81.91,143.86,82.278,144.318z M99.91,85.226l0.826-0.413c0-0.733,0.734-1.974,2.204-3.719&#xD;&#xA;			c1.468-1.653,2.204-3.031,2.204-4.133c0-3.03-1.194-4.546-3.582-4.546c-1.47,0-3.078,0.873-4.821,2.617&#xD;&#xA;			c-1.745,1.746-2.616,3.354-2.616,4.821C94.125,82.701,96.053,84.492,99.91,85.226z M95.777,99.275c0,0.736,0.689,1.24,2.066,1.517&#xD;&#xA;			c0.459,0.184,1.01,0.274,1.652,0.274c0.552,0.093,1.055,0.138,1.516,0.138l3.857-0.275c0-0.458-0.23-1.055-0.689-1.791&#xD;&#xA;			c-0.367-0.733-0.873-1.468-1.514-2.204c-0.645-0.641-1.289-1.146-1.93-1.515c-0.551-0.366-1.012-0.459-1.377-0.275L95.777,99&#xD;&#xA;			V99.275z"></path>
+		</g>
+	</g>
+
+
+<line x1="103.6999" y1="29.70195" x2="103.6999" y2="24.35765" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="103.6999" to="103.8027" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="24.35765" to="19.63001" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="102.7749" y1="59.50668" x2="102.7749" y2="64.95374" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="102.7749" to="102.7749" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="64.95374" to="69.47585" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="122.0966" y1="43.98766" x2="128.6742" y2="43.98766" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="128.3659" to="132.3741" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="43.98766" to="44.09044" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="86.94758" y1="44.29599" x2="80.36998" y2="44.29599" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="80.36998" to="76.77286" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="44.29599" to="44.39877" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="92.49742" y1="33.91572" x2="88.28365" y2="29.59918" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="88.28365" to="85.81705" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="29.59918" to="26.92703" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="117.4717" y1="35.04625" x2="122.0966" y2="31.03802" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="122.0966" to="125.1798" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="31.03802" to="28.36588" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="114.9024" y1="56.42343" x2="118.8078" y2="61.0483" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="118.8078" to="121.4799" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="61.0483" to="64.3371" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="91.98354" y1="55.2929" x2="87.87255" y2="59.815" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<animate attributename="x2" begin="0" dur="0.5" fill="freeze" from="87.87255" to="85.2004" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0" dur="0.5" fill="freeze" from="59.815" to="63.00102" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="111.408" y1="30.62692" x2="114.4913" y2="25.07708" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="114.4913" to="118.2939" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="25.07708" to="18.08838" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="121.2744" y1="39.36279" x2="126.8242" y2="36.27954" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="126.8242" to="134.224" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="36.27954" to="32.7852" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="119.9383" y1="51.49023" x2="125.7965" y2="55.08736" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="125.7965" to="131.963" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="55.08736" to="58.78725" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="109.147" y1="59.09558" x2="111.2025" y2="65.05652" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="111.2025" to="114.3885" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="65.05652" to="72.14799" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="97.01952" y1="58.68448" x2="94.03905" y2="64.13155" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="94.03905" to="90.64748" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="64.13155" to="71.53134" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="88.28365" y1="50.25694" x2="82.63103" y2="52.62076" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="82.63103" to="75.12846" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="52.62076" to="56.01233" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="87.97533" y1="38.54059" x2="82.42548" y2="35.86845" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="82.42548" to="75.64233" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="35.86845" to="32.57965" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+<line x1="97.53339" y1="30.42138" x2="95.27235" y2="24.9743" stroke="#FF6600" stroke-width="2" stroke-dasharray="2,2">
+<set begin="0" dur="0" fill="freeze" attributename="visibility" to="hidden" repeatcount="indefinite"></set>
+<set begin="0.5" dur="0" fill="freeze" attributename="visibility" to="visible" repeatcount="indefinite"></set>
+<animate attributename="x2" begin="0.5" dur="0.5" fill="freeze" from="95.27235" to="92.08632" repeatcount="indefinite"></animate>
+<animate attributename="y2" begin="0.5" dur="0.5" fill="freeze" from="24.9743" to="17.47174" repeatcount="indefinite"></animate>
+<animate attributename="stroke" begin="0.5" dur="0.5" fill="freeze" from="#FF6600" to="#FFFFCC" repeatcount="indefinite"></animate>
+</line>
+
+
+</svg>
+</div></a>
+</div>
+<div class="lotus">
+</div>
+<!--<div id="bg" style="width:100%; height:auto; overflow:auto; background:url(juewu_com_bd.jpg) no-repeat; background-position:bottom center;">
+<div id="top" style="width:1200px; line-height:26px; position:relative; left:50%; margin-left:-600px; top:90%; font-size:18px; font-family:'微软雅黑'; color:#006cf1; text-align:center">觉悟网 <br></div>-->
+
+
+
+<!--<div style="width:1200px; margin:0 auto; height:2000px; background:#eee"></div>-->
+<div class="foot"><img src="images\foot.png" width="318" height="83"></div>
+
+</body>
+</html>
